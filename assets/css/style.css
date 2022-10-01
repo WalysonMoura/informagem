@@ -240,7 +240,7 @@ header{
     }
 }
 
-@media (max-width: 767px){
+@media (max-width: 769px){
     .menu{
         display: none;
     }
@@ -252,8 +252,8 @@ header{
     .container{
         width: 100%;
         height: 100vh;
-        gap: 9rem;
-        margin-top: 3rem;
+        gap: 12rem;
+        margin-top: 5rem;
     }
 
     .content-text-left h1{
