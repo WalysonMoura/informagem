@@ -16,7 +16,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #000;
 }
 
 .menu,
@@ -274,8 +274,8 @@ header{
 
 @media (max-width: 480px){
     .container{
-        margin-top: -5rem;
-        gap: 1rem;
+        margin-top: 1rem;
+        gap: 7rem;
     }
     
     .content-text-left h1{
@@ -287,18 +287,25 @@ header{
     }
 }
 
-@media (max-width: 280px){
+@media (max-width: 320px){
+    .container{
+        gap: 7rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 290px){
     .container{
         gap: 5rem;
-        margin-top: 2rem;
-    }
-
-    .content-text-left{
-        gap: 0.5rem;
+        margin-top: -3rem;
     }
 
     .content-text-left h1{
         font-size: 1.5rem;
+    }
+
+    .content-text-left p{
+        margin-top: -1.5rem;
     }
 
     .content-img-right img{
