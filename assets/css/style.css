@@ -207,7 +207,7 @@ header{
     }
 }
 
-@media (max-width: 964px){
+@media (max-width: 996px){
     .container{
         display: flex;
         align-items: center;
