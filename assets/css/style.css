@@ -16,7 +16,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f1f7f6;
+    background-color: #408cfb;
 }
 
 .menu,
@@ -41,7 +41,7 @@ header{
 }
 
 .list li:hover{
-    color: #7000bf;
+    color: #fff;
 }
 
 
@@ -262,6 +262,10 @@ header{
 }
 
 @media (max-width: 480px){
+    .container{
+        margin-top: -3.5rem;
+    }
+    
     .content-text-left h1{
         font-size: 2rem;
     }
