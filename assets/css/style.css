@@ -16,7 +16,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #408cfb;
+    background-color: #fff;
 }
 
 .menu,
@@ -41,7 +41,7 @@ header{
 }
 
 .list li:hover{
-    color: #fff;
+    color: #408cfb;
 }
 
 
