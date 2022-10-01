@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-decoration: none;
+}
+.float {
+  position: fixed;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: grid;
+  place-items: center;
+  background-color: #25d366;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+
+  font-size: 2rem;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.my-float {
+  color: #fff;
+  text-decoration: none;
+}
+.c-slider {
+  width: 100%;
+  padding: 1.5rem 1rem 1.5rem 6rem;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 1.57rem;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.c-slider__card {
+  flex: 0 0 20%;
+  height: 15rem;
+  padding: 1.5rem 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  border-radius: 1.5rem;
+  border-radius: 50px;
+
+  border-radius: 58px;
+  border-radius: 51px;
+  background: #f8f8f8;
+  box-shadow: 5px 5px 10px #c1c1c1, -5px -5px 10px #ffffff;
+  scroll-snap-align: start;
+}
+.c-slider__card:hover {
+  border-radius: 58px;
+  background: #f8f8f8;
+  box-shadow: inset 5px 5px 10px #b3b3b3, inset -5px -5px 10px #ffffff;
+}
+@media (max-width: 1050px) {
+  .c-slider__card {
+    flex: 0 0 23%;
+  }
+}
+@media (max-width: 1000px) {
+  .c-slider__card {
+    flex: 0 0 25%;
+  }
+}
+@media (max-width: 768px) {
+  .c-slider__card {
+    flex: 0 0 13rem;
+  }
+}
