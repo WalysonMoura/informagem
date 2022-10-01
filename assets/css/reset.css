@@ -21,6 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	box-sizing: border-box;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -46,7 +47,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+button{
+	outline: none;
+	border: none;
+}
+img{
+	width: 100%;
+}
 body {
     text-decoration: none;
     background-color: #f8f8f8;

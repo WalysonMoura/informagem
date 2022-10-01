@@ -1,0 +1,57 @@
+.l-contatos {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.c-contatos {
+  width: 100%;
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.c-contatos__card {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 -1px 12px hsla(0, 63%, 15%, 0.15);
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+}
+.c-contatos__img {
+  width: 15rem;
+}
+.c-contatos__btn {
+  width: 7rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  
+  background: #e42828;
+  box-shadow: 0 -1px 12px hsla(174, 63%, 15%, 0.15);
+  color: #f8f8f8;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.c-contatos__btn:hover {
+    background: #ba2424;
+   
+}
+.c-contatos__card:hover{
+    transform: translateY(-0.25rem);
+    transition: 0.3s;
+}
+@media (max-width: 768px) {
+  .c-contatos {
+    width: 100%;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-contatos__img {
+    width: 15rem;
+  }
+}
