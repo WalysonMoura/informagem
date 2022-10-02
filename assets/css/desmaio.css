@@ -11,10 +11,10 @@ body {
   text-decoration: none;
   font-family: "Outfit", sans-serif;
   background-color: #f4f4f4;
-
 }
 img {
   width: 100%;
+  
 }
 
 .c-main {
@@ -24,8 +24,8 @@ img {
 }
 .c-section {
   width: 100%;
-  background-color: #f4f4f4;
-  padding: 0 2rem 2rem;
+  background-color: #f8f8f8;
+  padding: 0 2rem 10rem;
 
   color: #2b2f32;
 
@@ -35,13 +35,24 @@ img {
   justify-content: center;
   gap: 2rem;
 }
-
-h1{
+.c-section img{
+  border-radius: 1rem;
+  max-width: 520px;
+}
+h1 {
   font-size: 3rem;
   text-align: center;
   color: #2b2f32;
 }
-.c-section div{
+
+h2 {
+  color: #3d6cfa;
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.25rem;
+}
+.c-section div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,10 +60,16 @@ h1{
   gap: 1rem;
 }
 
-.c-section ul,ol{
+.c-section ul,
+ol {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: .5rem;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+.c-section li,
+p {
+  font-size: 1.15rem;
 }

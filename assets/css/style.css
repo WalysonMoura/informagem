@@ -11,6 +11,8 @@ button {
 body {
   text-decoration: none;
   font-family: "Outfit", sans-serif;
+  background-color: #f8f8f8;
+  
 }
 img {
   width: 100%;
@@ -62,9 +64,13 @@ img {
   width: 100%;
 }
 /*=== section2 ===*/
+.c-section2 h2, .c-section2 strong{
+  font-size: 2rem;
+}
 .c-section2__containner h2 {
   color: #2b2f32;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  
 }
 .c-section2__containner h2 strong {
   color: #3d6cfa;
