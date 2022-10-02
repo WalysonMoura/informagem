@@ -449,7 +449,7 @@ footer {
 
 .footer-wave {
 
-  background-image: url('/assets/images/wave.png');
+  background-image: url('assets/images/wave.png');
 
   position: absolute;
 
