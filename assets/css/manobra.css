@@ -1,11 +1,23 @@
-body{
-   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  button {
+    border: none;
+    outline: none;
+  }
+  body {
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+  }
+  img {
+    width: 100%;
+  }
+  
+  .c-main {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
     
-}
-main{
-   
-    z-index: 2;
-    background-color: aqua;
-    
-
-}
+  }
