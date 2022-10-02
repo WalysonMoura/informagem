@@ -18,27 +18,32 @@
   height: 20rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   border-radius: 1rem;
 }
 .c-contatos__img {
-  width: 15rem;
+  width: 3rem;
 }
 .c-contatos__btn {
-  width: 7rem;
-  height: 3rem;
-  border-radius: 0.5rem;
-  
-  background: #e42828;
-  box-shadow: 0 -1px 12px hsla(174, 63%, 15%, 0.15);
+    border-radius: .5rem;
+    width: 8rem;
+    height: 2.5rem;
+    background-image: linear-gradient(
+    to right,
+    #6695f2,
+    #3d6cfa,
+    #6695f2,
+    #3d6cfa
+  );
+  box-shadow: 0 5px 15px rgba(2, 90, 253, 0.4);
+
   color: #f8f8f8;
-  font-size: 1.25rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-family: inherit;
+
 }
-.c-contatos__btn:hover {
-    background: #ba2424;
-   
-}
+
 .c-contatos__card:hover{
     transform: translateY(-0.25rem);
     transition: 0.3s;
