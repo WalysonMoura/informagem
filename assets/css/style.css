@@ -313,7 +313,7 @@ footer {
 
 .footer-wave {
 
-  background-image: url('assets/images/wave.png');
+  background-image: url('/assets/images/wave.png');
 
   position: absolute;
 
@@ -447,7 +447,7 @@ footer .wave {
 
   height: 100px;
 
-  background: url(wave.png);
+  background: url('assets/images/wave.png');
 
   background-size: 1000px 100px;
 
