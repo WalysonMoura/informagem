@@ -513,7 +513,7 @@ footer {
 
 .footer-wave {
 
-  background-image: url('images/wave.png');
+  background-image: url('/images/wave.png');
 
   position: absolute;
 
