@@ -141,6 +141,7 @@ img {
 @media (max-width: 800px) {
   .c-section1 {
     grid-template-columns: 1fr;
+    
     gap: 2rem;
     padding: 0 2rem;
     margin-top: 0rem;
