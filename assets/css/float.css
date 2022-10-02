@@ -5,6 +5,7 @@
     right: 0;
     font-family: inherit;
     z-index: 20000;
+    background-color: rgba(0, 0, 0, 0);
   }
   .icon-float {
     position: relative;
@@ -51,6 +52,7 @@
     font-size: 2rem;
     color: #3d6cfa;
     z-index: 20005;
+    
 
   }
   .icon-float:hover span,
