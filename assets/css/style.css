@@ -83,7 +83,7 @@ img {
   width: 100%;
   background-color: #F4F4F4;
   padding: 2rem 0;
-  padding-bottom: 10rem;
+  padding-bottom: 8rem;
 }
 
 .c-section2__cards {
@@ -145,6 +145,50 @@ img {
 .c-section3 {
   width: 100%;
   background-color: #f8f8f8;
+  margin-bottom: 10rem;
+  padding: 0 2rem;
+  
+}
+.c-section3__card h2{
+  font-size: 2rem;
+  text-align: center;
+  color: #2b2f32;
+  margin: 2rem 0;
+  
+}
+.c-section3__card h2 span {
+  color: #408cfb;
+}
+
+.c-section3__card p{
+  text-align: justify;
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+.c-section3 button{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+  width: 8rem;
+  height: 2.5rem;
+  background-image: linear-gradient(
+    to right,
+    #6695f2,
+    #3d6cfa,
+    #6695f2,
+    #3d6cfa
+  );
+  box-shadow: 0 5px 15px rgba(2, 90, 253, 0.4);
+
+  color: #f8f8f8;
+  font-size: 1rem;
+  font-family: inherit;
+} 
+.c-section3 img {
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  margin-top: 2rem;
 }
 
 /*---- Aqui termina a estilização do HAMBURGUER MENU ----*/
