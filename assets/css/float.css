@@ -14,8 +14,8 @@
     background: #fff;
     border-radius: 50%;
     margin: 10px;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@
   .tooltip {
     position: absolute;
     top: 0;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 300;
     font-family: inherit;
     background: #fff;
@@ -42,14 +42,14 @@
   }
   
   .icon-float:hover .tooltip {
-    top: -45px;
+    top: -60px;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
   }
   .c-mensage{
     margin-top: 9px;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #3d6cfa;
     z-index: 20005;
     
