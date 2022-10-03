@@ -67,20 +67,10 @@ header {
     color: #f35626;
     font-weight: 700;
     letter-spacing: 2px;
-    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3d);
+    background-image: -webkit-linear-gradient(92deg, red, #b3109d, rgb(31, 15, 241), rgb(0, 255, 98));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite;
-}
-
-@-webkit-keyframes hue{
-    from{
-        -webkit-filter: hue-rotate(0deg);
-    }
-
-    to{
-        -webkit-filter: hue-rotate(-360deg);
-    }
 }
 
 .content{
