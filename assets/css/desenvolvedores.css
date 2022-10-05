@@ -113,8 +113,8 @@ header {
 
 .instagram,
 .git{
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,7 +134,7 @@ header {
 
 .instagram img,
 .git img{
-    width: 1rem;
+    width: 0.85rem;
 }
 
   @media (max-width: 900px) {
