@@ -109,6 +109,7 @@ header {
     justify-content: flex-end;
     flex-direction: row;
     gap: 1rem;
+    margin: 1rem;
 }
 
 .instagram,
