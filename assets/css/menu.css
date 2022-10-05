@@ -34,6 +34,10 @@ header {
   padding: 1rem;
 }
 
+.logo img{
+    width: 4rem
+}
+
 .list {
   list-style: none;
   gap: 1rem;

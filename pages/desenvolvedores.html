@@ -42,8 +42,7 @@
   
       <header>
         <div class="logo">
-          <img src="" alt="" />
-          <h1>logo</h1>
+          <img src="/assets/images/logo.png" alt="" />
         </div>
   
         <div class="hamburger-menu">
@@ -86,63 +85,87 @@
         </nav>
       </header>
     
-    <
+    
   <main class="container">
-    <div class="text">
-      <h1>DESENVOLVEDORES</h1>
-    </div>
-    <div class="content">
-      <div class="dev-1">
-        <img src="/assets/images/walyson.jpg" class="dev" alt="">
-        <h1>
-          walyson
-        </h1>
+    <div class="card">
+        <div class="mode">
+            <img src="/assets/css/icons/sun.svg" onclick="light()" class="sun" alt="">
+            <img src="/assets/css/icons/moon.svg" onclick="dark()" class="moon" alt="">
+        </div>
+
+        <div class="perfil">
+            <img src="/assets/images/walyson.jpg" class="dev" alt="">
+            <h3 class="texto">Walyson Moura</h3>
+            <p class="texto2">Desenvolvedor Full Stack, voltado para as tecnologias JavaScript e ReactJS. Excelente em HTML e CSS.</p>
+        </div>
 
         <div class="redes">
-          <a href="https://www.instagram.com/walyson_moura2/">
-            <img src="/assets/css/images/instagram.svg" alt="">
-              </a>
-  
-              <a href=https://github.com/WalysonMoura">
-            <img src="/assets/css/images/github.svg" alt="">
-              </a>
-        </div>
-      </div>
-
-        <div class="dev-1">
-          <img src="/assets/images/walyson.jpg" class="dev" alt="">
-          <h1>
-            Wandemberg
-          </h1>
-  
-          <div class="redes">
-            <a href="https://www.instagram.com/new.berg85/">
-          <img src="/assets/css/images/instagram.svg" alt="">
-            </a>
-
-            <a href="https://github.com/newberg85">
-          <img src="/assets/css/images/github.svg" alt="">
+          <div class="instagram">
+            <a href="https://www.instagram.com/walyson_moura2/">
+              <img src="/assets/images/instagram.svg" alt="">
+                </a>
+          </div>
+          <div class="git">
+            <a href="https://github.com/WalysonMoura">
+          <img src="/assets/images/github.svg" alt="">
             </a>
           </div>
         </div>
-
-          <div class="dev-1">
-            <img src="https://project-historia.vercel.app/_next/image?url=%2FRicardo.png&w=384&q=75" class="dev" alt="">
-            <h1>
-              Ricardo
-            </h1>
-    
-            <div class="redes">
-              <a href="https://www.instagram.com/ricardo_pinr/">
-                <img src="/assets/css/images/instagram.svg" alt="">
-                  </a>
-      
-                  <a href="https://github.com/RicardoPinheiro-22">
-                <img src="/assets/css/images/github.svg" alt="">
-                  </a>
-            </div>
-          </div>
     </div>
-  </main>
+    
+    <div class="card card2">
+        <div class="mode">
+            <img src="/assets/css/icons/sun.svg" onclick="dia()" class="sun sol" alt="">
+            <img src="/assets/css/icons/moon.svg" onclick="noite()" class="moon lua" alt="">
+        </div>
+
+        <div class="perfil">
+            <img src="https://walysonmoura.github.io/Stranger-things/assets/img/berg.png" alt="">
+            <h3 class="text">Wandemberg Menezes</h3>
+            <p class="text2">Desenvolvedor Full Stack, maior conhecimento da linguagem JavaScript, criador várias aplicações com essa tecnologia</p>
+        </div>
+
+        <div class="redes">
+          <div class="instagram">
+            <a href="https://www.instagram.com/new.berg85/">
+          <img src="/assets/images/instagram.svg" alt="">
+            </a>
+          </div>
+          <div class="git">
+            <a href="https://github.com/newberg85">
+          <img src="/assets/images/github.svg" alt="">
+            </a>
+          </div>
+        </div>
+    </div>
+
+    <div class="card card3">
+        <div class="mode">
+            <img src="/assets/css/icons/sun.svg" onclick="claro()" class="sun sol2" alt="">
+            <img src="/assets/css/icons/moon.svg" onclick="escuro()" class="moon lua2" alt="">
+        </div>
+
+        <div class="perfil">
+            <img src="https://project-historia.vercel.app/_next/image?url=%2FRicardo.png&w=384&q=75" alt="">
+            <h3 class="texto texto3">Ricardo Pinheiro</h3>
+            <p class="texto2 texto4">Desenvolvedor Front-end voltado para a tecnologia JavaScript com bastante conhecimento em HTML e CSS.</p>
+        </div>
+
+        <div class="redes">
+          <div class="instagram">
+            <a href="https://www.instagram.com/ricardo_pinr/">
+              <img src="/assets/images/instagram.svg" alt="">
+                </a>
+          </div>
+          <div class="git">
+            <a href="https://github.com/RicardoPinheiro-22">
+          <img src="/assets/images/github.svg" alt="">
+            </a>
+          </div>
+        </div>
+    </div>
+</main>
+
+<script src="/assets/js/desenvolvedores.js"></script>
 </body>
 </html>
