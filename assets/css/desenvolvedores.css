@@ -8,7 +8,7 @@
 
 body{
     font-family: "Outfit", sans-serif;
-    background-image: linear-gradient(to right, #272727, #3586ff);
+    background-image: linear-gradient(to right, #408cfb, #3586ff);
 }
 
 header {
@@ -51,95 +51,109 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 3rem;
 }
 
-.text{
+.card{
+    width: 16rem;
+    height: 25rem;
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
     text-align: center;
+    background-color: #fff;
+    border: solid 1px #272727;
+    border-radius: 10px;
 }
 
-.text h1{
-    font-size: 3rem;
-    color: #f35626;
-    font-weight: 700;
-    letter-spacing: 2px;
-    background-image: -webkit-linear-gradient(92deg, red, #b3109d, rgb(31, 15, 241), rgb(0, 255, 98));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: hue 10s infinite;
-}
-
-.content{
-    width: 75%;
-    height: 50vh;
+.mode{
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 5rem;
+    justify-content: flex-end;
+    margin: 1rem;
 }
 
-.dev-1{
-    width: 15rem;
-    height: 20rem;
+.mode .sun{
+    width: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+.mode .moon{
+    width: 2rem;
+    cursor: pointer;
+}
+
+.perfil{
+    width: 100%;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
-    gap: 2rem;
-    background-image: linear-gradient(
-        to right,
-        #6695f2,
-        #3d6cfa,
-        #6695f2,
-        #3d6cfa
-      );
-      box-shadow: 0 5px 15px black;
-    border-radius: 10px;
+    gap: 1rem;
 }
 
-.dev-1 .dev{
-    width: 11rem;
+.perfil img{
+    width: 7rem;
     border-radius: 50%;
 }
 
-.dev-1 h1{
-    font-size: 1.5rem;
+.redes{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 1rem;
 }
 
-.redes{
+.instagram,
+.git{
+    width: 2rem;
+    height: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    gap: 2rem;
-}
-
-svg{
-    fill: #000;
-    scale: 1.25;
+    border: solid 1px #000;
+    border-radius: 50%;
     cursor: pointer;
+    background-color: #fff;
 }
 
-svg:hover{
-    fill: #fff;
+.instagram:hover{
+    background-image: linear-gradient(to right, rgb(42, 42, 214), #408cfb);
+}
+
+.git:hover{
+    background-image: linear-gradient(to right, rgb(247, 160, 0), rgb(214, 134, 30));
+}
+
+.instagram img,
+.git img{
+    width: 1rem;
 }
 
   @media (max-width: 900px) {
     footer{
         margin-top: 32rem;
     }
+
+    .container{
+        margin-top: 3rem;
+    }
 }
 
-  @media (max-width: 767px) {
+  @media screen and (max-width: 867px) and (orientation: portrait){
     .menu {
       display: none;
+    }
+
+    .card{
+        gap: 2rem;
     }
   
     .hamburger-menu {
@@ -147,10 +161,20 @@ svg:hover{
     }
 }
 
+@media screen and (max-width: 890px) and (orientation: landscape){
+    .redes{
+        margin-top: 4rem;
+    }
+}
+
 @media (max-width: 680px){
     .text h1{
         font-size: 2rem;
     }
+}
+
+@media (max-width: 540px){
+    
 }
 
 @media (max-width: 430px){
